@@ -1,0 +1,59 @@
+body {
+  max-width: 992px;
+  font-family: 'Arial';
+  font-weight: bold;
+}
+
+#brandname {
+  padding-left: 10px;
+
+}
+
+#btna {
+  margin-right: 30px;
+  background-color: white;
+}
+
+.nav-link {
+  text-align: center;
+}
+
+/* <!-- End of header--> */
+
+#Chicken{
+  border: 1px;
+  border-style: solid;
+}
+
+#beef{
+  border: 1px;
+  border-style: solid;
+}
+
+#sushi{
+  border: 1px;
+  border-style: solid;
+}
+
+
+/* Adjust width for xs screens (xs) */
+@media (max-width: 576px) {
+  #sushi, #beef {
+      margin-top: 30px !important; /* Change this value as needed */
+  }
+}
+
+/* Adjust width for sm screens (sm) */
+@media (min-width: 576px) and (max-width: 768px) {
+  #sushi {
+      margin-top: 30px !important; /* Change this value as needed */
+  }
+
+  #beef {
+    margin-left: 90px !important;
+  }
+
+  #chicken {
+    margin-right: 40px;
+  }
+}
